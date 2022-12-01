@@ -1,0 +1,135 @@
+footer {
+    font-family: 'PT Sans', sans-serif;
+    padding: 100px 0;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+footer h2 + p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+footer form {
+    text-align:center; 
+}
+
+footer form div.input-field {
+    display: inline-block;
+    max-width: 126px;
+    width: 100%;
+}
+
+footer form div.input-field:first-child {
+    max-width: 580px;
+    width: 100%;
+    margin-right: 16px;
+}
+
+footer form div.input-field input {
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    padding: 0 24px;
+    outline: none;
+}
+
+footer form div.input-field input[type="email"] {
+    text-align: left;
+}
+
+footer form div.input-field input[type="submit"] {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*Social Icons*/
+footer ul.social-icons {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 135px;
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+/*End Navigation*/
+footer .footer-navigation {
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    line-height: 20px;
+}
+
+footer .footer-navigation address{
+    color: inherit;
+    line-height: inherit;
+}
+
+footer .footer-navigation address a {
+    color: inherit;
+}
+
+footer .footer-navigation ul {
+
+}
+
+footer .footer-navigation ul li {
+    color: inherit;
+}
+
+footer .footer-navigation ul li a {
+    color: inherit;
+    line-height: inherit;
+}
+
+/*Desktop*/
+@media only screen and (max-width: 992px) {
+    
+}
+
+/*Small devices*/
+@media only screen and (max-width: 768px) {
+    footer form div.input-field {
+        margin-bottom: 20px;
+    }
+
+    footer form div.input-field:first-child {
+        margin-right: 0;
+    }
+
+    footer .footer-navigation address {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    footer .footer-navigation ul li {
+        color: inherit;
+        text-align: center;
+    }
+
+    .carousel-text {
+        text-align: center;
+    }
+}
+
+/*Custom devices*/
+@media only screen and (max-width: 500px) {
+    footer form div.input-field {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+}

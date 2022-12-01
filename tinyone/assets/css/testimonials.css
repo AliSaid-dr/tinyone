@@ -1,0 +1,89 @@
+.testimonials {
+    font-family: 'PT Sans', sans-serif;
+    padding: 120px 0;
+}
+
+.testimonials .header h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.testimonials .header p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 761px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+/*Item*/
+.testimonials .item {
+    padding-left: 90px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.testimonials .item h3 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.testimonials .item p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.testimonials .item.i-phone {
+    background: url('../img/phone-icon.png') no-repeat;
+    background-position: 14px 0;
+}
+
+.testimonials .item.lemon {
+    background: url('../img/lemon-icon.png') no-repeat;
+    background-position: 14px 0;
+}
+
+.testimonials .item.folder {
+    background: url('../img/folder-icon.png') no-repeat;
+    background-position: 14px 0;
+}
+
+.testimonials .item.html {
+    background: url('../img/html-icon.png') no-repeat;
+    background-position: 14px 0;
+}
+
+.testimonials .item.letter {
+    background: url('../img/letter-icon.png') no-repeat;
+    background-position: 14px 0;
+}
+
+.testimonials .item.mark {
+    background: url('../img/mark-icon.png') no-repeat;
+    background-position: 14px 0;
+}
+
+.testimonials .header~div row {
+    margin-bottom: 85px;
+}
+
+.testimonials .header~div row:last-child {
+    margin-bottom: 0;
+}
+
+/*Desktop*/
+@media only screen and (max-width: 992px) {
+    .testimonials .item {
+        margin-bottom: 20px;
+    }
+}
+
+/*Small devices*/
+@media only screen and (max-width: 768px) {
+
+}

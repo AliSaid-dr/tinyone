@@ -1,0 +1,133 @@
+/*Global*/
+.carousel {}
+
+.carousel .item {
+    padding-top: 71px;
+    min-height: 638px;
+}
+
+.carousel .item h1 {
+    margin-top: 74px;
+    margin-bottom: 27px;
+} 
+
+.carousel .item p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+.carousel .item p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+.carousel .item p+p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #555;
+}
+
+/*Logo*/
+.carousel .item ul.store-buttons {
+    text-align: left;
+    padding-top: 19px;
+}
+
+.carousel .item ul.store-buttons li {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.carousel .item ul.store-buttons li a {
+    display: inline-block;
+}
+
+.carousel .item ul.store-buttons li:last-child {
+    margin-right: 0;
+}
+
+/*Phone*/
+.carousel .item .phone {
+    width: 314px;
+    height: 469px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #fff;
+    border-top-width: 44px;
+    border-left-width: 14px;
+    border-right-width: 14px;
+    border-bottom-width: 42px;
+    
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel .item .phone:before,
+.carousel .item .phone:after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 27px;
+    background-color: #fff;
+    position: absolute;
+    right: -16px;
+}
+
+.carousel .item .phone:before {
+    top: 35px;
+}
+
+.carousel .item .phone:after {
+    top: 67px;
+}
+
+.carousel .item .logo {
+    float: none;
+    text-align: center;
+    height: 43px;
+}
+
+/*Small devices*/
+@media only screen and (max-width: 768px) {
+    
+    header nav ul li a {
+        font-size: 18px;
+    }
+
+    .carousel .item {
+        padding-top: 5px;
+    }
+
+    .carousel .item h1 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /*.carousel .item p {
+        text-align: center;
+        width: 340px;
+    }*/
+
+    .carousel-text {
+        text-align: center;
+    }
+
+    .carousel .item ul.store-buttons {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .carousel .item ul.store-buttons li {
+        margin: 0 19px;
+    }
+
+    .carousel .item .phone {
+        margin-bottom: 25px;
+    }
+}

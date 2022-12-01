@@ -1,0 +1,58 @@
+/*Text Colors*/
+
+.tx_color_m {
+    color: #010101;
+}
+
+.tx_color_slv {
+    color: #fcdb00;
+}
+
+.tx_color_desc {
+    color: #313841;
+}
+
+.tx_color_thimb {
+    color: #898989;
+}
+
+/*Background Colors*/
+.main_color {
+    background-color: #fcdb00;
+}
+
+.color_dark {
+    background-color: #010101;
+}
+
+/*Common*/
+.shell {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.abs_center {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 18px;
+    font-weight: 700;
+}

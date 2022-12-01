@@ -1,0 +1,95 @@
+/*--------------
+1.Main
+2.Logo
+3.Navigation
+--------------*/
+
+/*Main*/
+header {
+    padding-top: 52px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header .top-header {
+    padding-top: 8px;
+}
+
+/*Logo*/
+header .logo {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header .logo a {
+    text-decoration: none;
+}
+
+header .logo a span {
+    padding-left: 3px;
+}
+
+header .logo img {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+header .logo a:hover,
+header .logo a:visited,
+header .logo a:focus {
+    text-decoration: none;
+    color: #010101;
+}
+
+/*Navigation*/
+header nav {
+    float: right;
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 70px;
+    height: 43px;
+    display: table;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li:last-child {
+    margin-right: 3px;
+}
+
+header nav ul li a {
+    color: inherit;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav ul li a:hover,
+header nav ul li a:visited,
+header nav ul li a:focus {
+    text-decoration: none;
+    color: #010101;
+}
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        float: none;
+        display: none;
+    }
+
+    header .logo {
+        float: none;
+        text-align: center;
+        /*margin-bottom: 25px;*/
+    }
+}
